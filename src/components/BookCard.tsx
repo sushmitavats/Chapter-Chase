@@ -36,7 +36,7 @@ const BookCard: React.FC<BookCardProps> = ({
           ? 'bg-gray-800 hover:bg-gray-750' 
           : 'bg-white hover:bg-gray-50'
       }`}
-      onClick={() => onBookClick(book)}
+      //  add
     >
       {/* Book Cover */}
       <div className="relative h-64 overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100">
